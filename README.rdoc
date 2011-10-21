@@ -3,13 +3,14 @@
 This tool will help you to decode the Gamma-Scout raw dump into a readable form.
 
 == Requirements
- * python
+* python
 
 Extensions
- * matplotlib (for rendering pdf report)
- * pygooglechart (for rendering google chart)
+* matplotlib (for rendering pdf report)
+* pygooglechart (for rendering google chart)
 
 == Usage
+Here is a sample usage with a dump file as parameter:
 
   > python GammaScoutDecode Gamma-Scout-201109050736.dmp
   Gamma Scout ID=049679
