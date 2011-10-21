@@ -1,0 +1,21 @@
+== Welcome to Gamma-Scout Decoder tool
+
+This tool will help you to decode the Gamma-Scout raw dump into a readable form.
+
+== Requirements
+ * python
+
+Extensions
+ * matplotlib (for rendering pdf report)
+ * pygooglechart (for rendering google chart)
+
+== Usage
+
+  > python GammaScoutDecode Gamma-Scout-201109050736.dmp
+  Gamma Scout ID=049679
+  Rendering CSV [Gamma-Scout-201109050736.dmp.csv]
+  Rendering Gnuplot [Gamma-Scout-201109050736.dmp.data]
+  Rendering Matplotlib [Gamma-Scout-201109050736.dmp.pdf]
+
+== License
+The Gamma-Scout Decoder tool is released under the CC0 license. See CC0.txt for details.
